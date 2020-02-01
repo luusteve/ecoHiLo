@@ -1,15 +1,15 @@
 const express = require('express')
 const app = express()
+const expressLayouts = require('express-ejs-layouts')
 
-app.set('view-engine', 'ejs')
+const indexRouter = require('./routes/index')
 
-app.get('/', (req, res) => {
-    res.render('index.ejs', { name: 'Kyle' })
-})
+app.set('view engine', 'ejs')
+app.set('views', __dirname + '/views')
+app.set('layout', 'layouts/layout')
+app.use(expressLayouts)
+app.use(express.static('public'))
 
-app.get('/login', (req, res) => {
-    res.render('login.ejs', { name: 'Kyle' })
-})
+app.use('/', indexRouter)
 
-
-app.listen(3000)
+app.listen(process.env.PORT || 3000)

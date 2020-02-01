@@ -2,7 +2,7 @@
   "name": "ecohilo",
   "version": "1.0.0",
   "description": "Higher Lower Game by comparing carbon emission of food items",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "start": "node server.js",
     "devStart": "nodemon server.js"
