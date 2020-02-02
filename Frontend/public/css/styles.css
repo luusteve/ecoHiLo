@@ -4,9 +4,6 @@ html,body{
 	height: 100%; 	
 	overflow: hidden;
 }
-h1 {
-    color: aqua;
-}
 
 #left_text {
     font-size: 100px;
@@ -27,6 +24,24 @@ h1 {
 }
 
 #left_value {
+    height: 500px;
+    font-size: 100px;
+    line-height: 100px;
+    text-align: center;
+    color: #fffcfc;
+    /* border: 2px dashed #fffcfc; */
+}
+
+#right_title {
+    height: 200px;
+    font-size: 100px;
+    line-height: 200px;
+    text-align: center;
+    color: #fffcfc;
+    /* border: 2px dashed #fffcfc; */
+}
+
+#right_value {
     height: 500px;
     font-size: 100px;
     line-height: 100px;
