@@ -1,112 +1,112 @@
 [
   {
-    "keyword": "Coca-Cola",
-    "searchVolume": 0.14,
+    "product": "Coca-Cola",
+    "carbonIntensity": 0.14,
     "link": "https://images.barrons.com/im-139153?width=620&size=1.5"
   },
   {
-    "keyword": "BONAFONT water bottle (6L)",
-    "searchVolume": 0.15,
+    "product": "BONAFONT water bottle (6L)",
+    "carbonIntensity": 0.15,
     "link": "https://static.openfoodfacts.org/images/products/075/810/400/3174/front_es.5.full.jpg"
   },
   {
-    "keyword": "Sodium Sulphate",
-    "searchVolume": 0.18,
+    "product": "Sodium Sulphate",
+    "carbonIntensity": 0.18,
     "link": "https://ecobatgroup.com/ecobatgroup-wAssets/img/products/Natriumsulfat.jpg"
   },
   {
-    "keyword": "Plastics",
-    "searchVolume": 0.17,
+    "product": "Plastics",
+    "carbonIntensity": 0.17,
     "link": "https://www.ctvnews.ca/polopoly_fs/1.4789893.1580377118!/httpImage/image.jpg_gen/derivatives/landscape_1020/image.jpg"
   },
   {
-    "keyword": "Latex",
-    "searchVolume": 0.21,
+    "product": "Latex",
+    "carbonIntensity": 0.21,
     "link": "http://mjtrends.b-cdn.net/images/product/904/shiny-black-latex-sheeting_924x699.jpg"
   },
   {
-    "keyword": "EcoShape water bottle (0.5L)",
-    "searchVolume": 0.26,
+    "product": "EcoShape water bottle (0.5L)",
+    "carbonIntensity": 0.26,
     "link": "https://stmedia.stimg.co/poland-spring.jpg?auto=compress&crop=faces&dpr=1&w=525"
   },
   {
-    "keyword": "Nescafe soluble coffee",
-    "searchVolume": 0.32,
+    "product": "Nescafe soluble coffee",
+    "carbonIntensity": 0.32,
     "link": "https://images-na.ssl-images-amazon.com/images/I/911kykoxoVL._SL1500_.jpg"
   },
   {
-    "keyword": "Walmart Bread",
-    "searchVolume": 0.39,
+    "product": "Walmart Bread",
+    "carbonIntensity": 0.39,
     "link": "https://i5.walmartimages.com/asr/64ee4144-7ece-4900-9ceb-57f09d805a52_1.515959dd9903af4a4136d3890fc7a471.jpeg?odnWidth=450&odnHeight=450&odnBg=ffffff"
   },
   {
-    "keyword": "Cable",
-    "searchVolume": 0.77,
+    "product": "Cable",
+    "carbonIntensity": 0.77,
     "link": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MKQ42?wid=1144&hei=1144&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1549930493416"
   },
   {
-    "keyword": "Pasta produced in Italy",
-    "searchVolume": 0.85,
+    "product": "Pasta produced in Italy",
+    "carbonIntensity": 0.85,
     "link": "https://www.italianfoodexperts.com/wp-content/uploads/2017/11/Vera-pasta-italiana.jpg"
   },
   {
-    "keyword": "Pasta produced in Turkey",
-    "searchVolume": 0.94,
+    "product": "Pasta produced in Turkey",
+    "carbonIntensity": 0.94,
     "link": "https://www.italianfoodexperts.com/wp-content/uploads/2017/11/Vera-pasta-italiana.jpg"
   },
   {
-    "keyword": "Rubber",
-    "searchVolume": 0.99,
+    "product": "Rubber",
+    "carbonIntensity": 0.99,
     "link": "https://www.textures.com/system/gallery/photos/Substance/ps129679/129679_header.jpg"
   },
   {
-    "keyword": "Pasta produced in USA",
-    "searchVolume": 1.32,
+    "product": "Pasta produced in USA",
+    "carbonIntensity": 1.32,
     "link": "https://www.italianfoodexperts.com/wp-content/uploads/2017/11/Vera-pasta-italiana.jpg"
   },
   {
-    "keyword": "Pasta produced in Greece",
-    "searchVolume": 1.7,
+    "product": "Pasta produced in Greece",
+    "carbonIntensity": 1.7,
     "link": "https://www.italianfoodexperts.com/wp-content/uploads/2017/11/Vera-pasta-italiana.jpg"
   },
   {
-    "keyword": "Staples Sustainable Earth 12A Toner Cartridrige",
-    "searchVolume": 3.09,
+    "product": "Staples Sustainable Earth 12A Toner Cartridrige",
+    "carbonIntensity": 3.09,
     "link": "https://www.eway.ca/Eway/Images/SplitImages/Products/S/STPSEB12AR.JPG"
   },
   {
-    "keyword": "Multi Grain Bread",
-    "searchVolume": 4.49,
+    "product": "Multi Grain Bread",
+    "carbonIntensity": 4.49,
     "link": "https://www.kingarthurflour.com/sites/default/files/styles/featured_image/public/recipe_legacy/9027-3-large.jpg?itok=cYIGvAGS"
   },
   {
-    "keyword": "LED Lighting",
-    "searchVolume": 8.43,
+    "product": "LED Lighting",
+    "carbonIntensity": 8.43,
     "link": "https://www.homedepot.ca/content/dam/homedepot/images/categories/lighting-&-ceiling-fans/led-lighting/jun-2019-clp-led-lighting-hero.jpg"
   },
   {
-    "keyword": "Levi Jeans - Range",
-    "searchVolume": 20.87,
+    "product": "Levi Jeans - Range",
+    "carbonIntensity": 20.87,
     "link": "https://www.levi.com/wp-content/uploads/2019/06/Blog_FitGuide_Thumbnails.jpg"
   },
   {
-    "keyword": "Qisda Mobile Phone",
-    "searchVolume": 152.46,
+    "product": "Qisda Mobile Phone",
+    "carbonIntensity": 152.46,
     "link": "https://i0.wp.com/liliputing.com/wp-content/uploads/2016/04/qisda-f55_01.jpg?w=509&ssl=1"
   },
   {
-    "keyword": "Electric Motor",
-    "searchVolume": 222.31,
+    "product": "Electric Motor",
+    "carbonIntensity": 222.31,
     "link": "https://www.dtrs.ca/uploads/TytTyP4W/737x0_930x0/2018-919-DTRServices-ElectricmotorrepairsinLethbridgeAlberta.jpg"
   },
   {
-    "keyword": "Residential Air Conditioner",
-    "searchVolume": 200.71,
+    "product": "Residential Air Conditioner",
+    "carbonIntensity": 200.71,
     "link": "https://www.thespruce.com/thmb/ZNE0-Obunj-8rm_FR28D63WKKKY=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/residential-air-conditioning-units-556557331-580f81385f9b58564cee1e11.jpg"
   },
   {
-    "keyword": "Dell Latitude E7240",
-    "searchVolume": 227.94,
+    "product": "Dell Latitude E7240",
+    "carbonIntensity": 227.94,
     "link": "https://www.notebookcheck.net/uploads/tx_nbc2/e7240.jpg"
   }
 ]
