@@ -1,0 +1,27 @@
+html,body{
+    background-color:#333;
+	margin: 0; 
+	height: 100%; 	
+	overflow: hidden;
+}
+h1 {
+    color: aqua;
+}
+
+#left-image {
+    background: url(https://media-exp1.licdn.com/dms/image/C4D03AQHgd0x_PJLfQw/profile-displayphoto-shrink_800_800/0?e=1586390400&v=beta&t=9QJvB56k-BmfRDet41JYwo4J14oBYOnlRzdwc-p5WWY);
+    width: 50%;
+    position: absolute;
+    left: 0px;
+    height: 100%;
+    background-size: cover;
+}
+
+#right-image {
+    background: url(https://avatars2.githubusercontent.com/u/20650884?s=460&v=4);
+    width: 50%;
+    position: absolute;
+    right: 0px;
+    height: 100%;
+    background-size: cover;
+}
