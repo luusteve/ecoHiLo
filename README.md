@@ -5,7 +5,7 @@ Use this link: https://eco-high-low.herokuapp.com/
 
 ## The game
 You are given 2 elements:
-* One element with its given carbon emission per kg
+* One element with its given CO2e per kg
 * Another without that information
 
 ![alt text](https://github.com/luusteve/ecoHiLo/blob/master/preview.png "Preview")
