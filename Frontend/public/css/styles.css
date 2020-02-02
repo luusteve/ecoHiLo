@@ -4,21 +4,73 @@ html,body{
 	height: 100%; 	
 	overflow: hidden;
 }
-h1 {
-    color: aqua;
+
+#left_text {
+    font-size: 100px;
+    position: relative;
+    left: 40%;
+    vertical-align: center;
+    vertical-align: middle;
+    line-height: normal;
 }
 
-#left-image {
-    background: url(https://media-exp1.licdn.com/dms/image/C4D03AQHgd0x_PJLfQw/profile-displayphoto-shrink_800_800/0?e=1586390400&v=beta&t=9QJvB56k-BmfRDet41JYwo4J14oBYOnlRzdwc-p5WWY);
+#left_title {
+    height: 200px;
+    font-size: 100px;
+    line-height: 200px;
+    text-align: center;
+    color: #fffcfc;
+    /* border: 2px dashed #fffcfc; */
+}
+
+#left_value {
+    height: 500px;
+    font-size: 100px;
+    line-height: 100px;
+    text-align: center;
+    color: #fffcfc;
+    /* border: 2px dashed #fffcfc; */
+}
+
+#right_title {
+    height: 200px;
+    font-size: 100px;
+    line-height: 200px;
+    text-align: center;
+    color: #fffcfc;
+    /* border: 2px dashed #fffcfc; */
+}
+
+#right_value {
+    height: 500px;
+    font-size: 100px;
+    line-height: 100px;
+    text-align: center;
+    color: #fffcfc;
+    /* border: 2px dashed #fffcfc; */
+}
+
+span {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+    width: 100%;
+    top: 100px;
+    position: relative;
+}
+
+#left_image {
+    background: linear-gradient(to bottom, rgba(58, 60, 61, 0.52), rgba(2, 2, 2, 0.815)),url(https://media-exp1.licdn.com/dms/image/C4D03AQHgd0x_PJLfQw/profile-displayphoto-shrink_800_800/0?e=1586390400&v=beta&t=9QJvB56k-BmfRDet41JYwo4J14oBYOnlRzdwc-p5WWY);
     width: 50%;
     position: absolute;
     left: 0px;
     height: 100%;
     background-size: cover;
+
 }
 
-#right-image {
-    background: url(https://avatars2.githubusercontent.com/u/20650884?s=460&v=4);
+#right_image {
+    background: linear-gradient(to bottom, rgba(58, 60, 61, 0.52), rgba(2, 2, 2, 0.815)), url(https://avatars2.githubusercontent.com/u/20650884?s=460&v=4);
     width: 50%;
     position: absolute;
     right: 0px;
