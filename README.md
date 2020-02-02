@@ -8,7 +8,7 @@ You are given 2 elements:
 * One element with its given carbon emission per kg
 * Another without that information
 
-![alt text](https://github.com/luusteve/ecoHiLo/blob/master/preview.png) "Preview")
+![alt text](https://github.com/luusteve/ecoHiLo/blob/master/preview.png "Preview")
 
 You, the player, must guess if the other element has a higher or lower carbon emssion per kg than the first element.
 
