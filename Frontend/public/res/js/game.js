@@ -38,6 +38,8 @@ const compareData = function (sender, answer) {
     if (answer == "lower") {
         if (leftProduct.carbonIntensity >= rightProduct.carbonIntensity) {
             if (productPosition + 1 > 10000) {
+                document.getElementById("game").style.display = 'none';
+                document.getElementById("lose").style.display = 'block';
                 //TODO END
                 // break;
             } else {
@@ -50,6 +52,8 @@ const compareData = function (sender, answer) {
             }
         }
         else {
+            document.getElementById("game").style.display = 'none';
+            document.getElementById("lose").style.display = 'block';
             //TODO END;
             //break;
         }
@@ -58,7 +62,8 @@ const compareData = function (sender, answer) {
         if (leftProduct.carbonIntensity <= rightProduct.carbonIntensity) {
 
             if (productPosition + 1 > 10000) {
-
+                document.getElementById("game").style.display = 'none';
+                document.getElementById("lose").style.display = 'block';
                 //TODO END
                 // break;
             }
@@ -74,6 +79,8 @@ const compareData = function (sender, answer) {
     }
     else {
         console.log("END");
+        document.getElementById("game").style.display = 'none';
+        document.getElementById("lose").style.display = 'block';
         //TODO END
         //break;
     }
