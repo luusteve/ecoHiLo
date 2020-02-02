@@ -5,7 +5,23 @@ html,body{
 	overflow: hidden;
 }
 
-#left_text {
+.left_image {
+    width: 50%; 
+    position: absolute; 
+    left: 0px; 
+    height: 100%; 
+    background-size: cover;
+}
+
+.right_image {
+    width: 50%; 
+    position: absolute; 
+    right: 0px; 
+    height: 100%; 
+    background-size: cover;
+}
+
+.left_text {
     font-size: 100px;
     position: relative;
     left: 40%;
@@ -14,37 +30,39 @@ html,body{
     line-height: normal;
 }
 
-#left_title {
+.left_title {
     height: 200px;
-    font-size: 100px;
-    line-height: 200px;
+    font-size: 65px;
+    line-height: 80px;
+    margin-top: 60px;
     text-align: center;
     color: #fffcfc;
     /* border: 2px dashed #fffcfc; */
 }
 
-#left_value {
+.left_value {
     height: 500px;
-    font-size: 100px;
-    line-height: 100px;
+    font-size: 65px;
+    line-height: 75px;
     text-align: center;
     color: #fffcfc;
     /* border: 2px dashed #fffcfc; */
 }
 
-#right_title {
+.right_title {
     height: 200px;
-    font-size: 100px;
-    line-height: 200px;
+    font-size: 65px;
+    line-height: 80px;
+    margin-top: 60px;
     text-align: center;
     color: #fffcfc;
     /* border: 2px dashed #fffcfc; */
 }
 
-#right_value {
+.right_value {
     height: 150px;
-    font-size: 100px;
-    line-height: 100px;
+    font-size: 65px;
+    line-height: 75px;
     text-align: center;
     color: #fffcfc;
     /* border: 2px dashed #fffcfc; */
@@ -159,7 +177,7 @@ html,body{
     }
 }
 
-#score {
+.score {
     color: #FFFFFF;
     font-size: 40px;
     margin-top: 130px;

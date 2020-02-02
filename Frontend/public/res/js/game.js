@@ -23,13 +23,13 @@ const playGame = function () {
             currentScore = $('.score');
 
 
-        leftImage.css("background", "linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('" + data[productPosition].link + "')");
+        leftImage.css("background", "linear-gradient(to top, rgba(58, 60, 61, 0.52), rgba(2, 2, 2, 0.815)), url('" + data[productPosition].link + "')");
         leftTitle.html(data[productPosition].product);
-        leftValue.html(data[productPosition].carbonIntensity);
+        leftValue.html(data[productPosition].carbonIntensity + " CO2/kg");
 
-        rightImage.css("background", "linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('" + data[productPosition + 1].link + "')");
+        rightImage.css("background", "linear-gradient(to top, rgba(58, 60, 61, 0.52), rgba(2, 2, 2, 0.815)), url('" + data[productPosition + 1].link + "')");
         rightTitle.html(data[productPosition + 1].product);
-        rightValue.html("emits than " + data[productPosition].product);
+        rightValue.html("emits than " + data[productPosition].product + " CO2/kg");
         currentScore.html("Score: " + playerScore);
 
     }
