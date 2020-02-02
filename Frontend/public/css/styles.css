@@ -1,170 +1,170 @@
-html,body{
-    background-color:#333;
-	margin: 0; 
-	height: 100%; 	
-	overflow: hidden;
+#left_text {
+    font-size: 100px;
+    position: relative;
+    left: 40%;
+    vertical-align: center;
+    vertical-align: middle;
+    line-height: normal;
 }
-.stage--splashMain,.div--mobileView_mobile,.stage--game,.stage--gameover{
-  height:100%;
+
+#left_title {
+    height: 200px;
+    font-size: 100px;
+    line-height: 200px;
+    text-align: center;
+    color: #fffcfc;
+    /* border: 2px dashed #fffcfc; */
 }
-.div--dockGame1_cross,
-.div--dockGame2_cross {
-	display: inline-block;
-  	width: 50%;
-	float:right;
-	min-height:100%;
-  	background-position: center center !important;
-  	background-size: cover !important;
-  	background-repeat: n /one !important;
-	display:flex;
-  	align-items:center;
-  	justify-content:center;
+
+#left_value {
+    height: 500px;
+    font-size: 100px;
+    line-height: 100px;
+    text-align: center;
+    color: #fffcfc;
+    /* border: 2px dashed #fffcfc; */
 }
-.div--dockGame1_cross h1{
-	text-align:center;
-	color:white;
-	font-family:"Times New Roman", Times, serif;
+
+#right_title {
+    height: 200px;
+    font-size: 100px;
+    line-height: 200px;
+    text-align: center;
+    color: #fffcfc;
+    /* border: 2px dashed #fffcfc; */
 }
-.div--dockGame2_cross h1{
-	text-align:center;
-	color:white;
-	font-family:"Times New Roman", Times, serif;
+
+#right_value {
+    height: 150px;
+    font-size: 100px;
+    line-height: 100px;
+    text-align: center;
+    color: #fffcfc;
+    /* border: 2px dashed #fffcfc; */
 }
-.div--dockGame1_cross p{
-	text-align:center;
-	color:white;
-	font-size:18px;
-	margin-top:3px;
-	margin-bottom:5px;
+
+#game_span {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+    width: 100%;
+    top: 100px;
+    position: relative;
 }
-.div--dockGame2_cross p{
-	text-align:center;
-	color:white;
-	font-size:18px;	
-	margin-bottom:5px;
-	margin-top:0px;
+
+#menu_span {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+    width: 100%;
+    top: 200px;
+    position: relative;
 }
-.div--dockGame1_cross h3{
-	text-align:center;
-	color:white;
-	font-size:18px;
-	margin-top:3px;
-	margin-bottom:5px;
-}
-.div--dockGame2_cross h3{
-	text-align:center;
-	color:white;
-	font-size:18px;
-	margin-top:3px;
-	margin-bottom:5px;
-}
-/* right-container heading */
-.div--dockGame1_cross h2{
-	text-align:center;
-	color:#FFFB62;
-	font-size:60px;
-	margin:0px;
-	margin-bottom:4px;
-}
-/* Left-container heading */
-.div--dockGame2_cross h2{
-	text-align:center;
-	color:#FFFB62;
-	font-size:60px;
-	margin:0px;
-	margin-bottom:4px;
-}
-/* Align elements to center */
-.div--alignInformation_cross {
+
+#left_image {
+    background: linear-gradient(to bottom, rgba(58, 60, 61, 0.52), rgba(2, 2, 2, 0.815)),url(https://media-exp1.licdn.com/dms/image/C4D03AQHgd0x_PJLfQw/profile-displayphoto-shrink_800_800/0?e=1586390400&v=beta&t=9QJvB56k-BmfRDet41JYwo4J14oBYOnlRzdwc-p5WWY);
+    width: 50%;
+    position: absolute;
+    left: 0px;
     height: 100%;
-  	display:-webkit-flex;
-  	display:flex;
-  	-webkit-align-items: center;
-    align-items: center;
-  	-webkit-justify-content: center;
-    justify-content: center;
-}
-.div--currentGamescore_cross{
-	position:absolute;
-	color:white;
-	bottom: 20px;
-	margin:0;
-}
-.div--currentGamehiscore_desktop{
-	position:absolute;
-	color:white;
-	bottom: 20px;
-	margin:0;
-}
-.div--CurrentRImageSource{
-	position:absolute;
-	color:white;
-	bottom: 5px;
-	margin:0;
-}
-.div--CurrentLImageSource{
-	position:absolute;
-	color:white;
-	bottom: 5px;
-	margin:0;
-}
-.div--CurrentLImageSouce {
-	position:absolute;
-	color:white;
-	bottom:5px;
-	margin:0;
-}
-.splashLabels{
-	display: flex;
-	height: 100%;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
-}
-.stageSplashAlign {
-	background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url("../images/max_res.jpg") no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
-	margin: 0; 
-	height: 100%;
+
 }
-.headingH1 {
-	clear:both;
+
+#right_image {
+    background: linear-gradient(to bottom, rgba(58, 60, 61, 0.52), rgba(2, 2, 2, 0.815)), url(https://avatars2.githubusercontent.com/u/20650884?s=460&v=4);
+    width: 50%;
+    position: absolute;
+    right: 0px;
+    height: 100%;
+    background-size: cover;
 }
-.l_higher {
-	color:#4CAF50;
-	display:inline-block;
+
+.buttons{
+    display: block;
+    margin-left: 38%;
+    margin-right: auto;
+    width: auto;
+    height: 30%;
 }
-.r_gamez {
-	color:#ff4d4d;
-	display:inline-block;
-	margin: 0;
+
+#higher_button {
+    margin-right: 100px;
+    padding: 20px;
+    font-size: 32px;
+    width: 210px;
+    line-height: 50px;
+  }
+
+  #lower_button {
+    background-color: #bd2d2d;
+    margin-top: 25px;
+    margin-right: 100px;
+    padding: 20px;
+    font-size: 32px;
+    width: 210px;
+    line-height: 50px;
+  }
+
+#menu_image {
+    background: linear-gradient(to bottom, rgba(58, 60, 61, 0.52), rgba(2, 2, 2, 0.815)), url(https://wallpaperplay.com/walls/full/c/2/1/57997.jpg);
+    width: 100%;
+    position: absolute;
 }
-.playedH2, .div--endGameScore{
-	font-weight:bold;
-	text-align:center;
-	color:#fff;
-	margin-bottom:5px;
+#menu_title {
+    font-size: 100px;
+    line-height: 100px;
+    text-align: center;
+    color: #fffcfc;
 }
-.paraP{
-	color:#fff;
-	text-align:center;
-	font-weight:bold;
-	margin-bottom:5px;
+
+#menu_button {
+    padding: 20px;
+    font-size: 32px;
+    width: 300px;
+    line-height: 30px;
+    margin-top: 30px;
+    margin-left: 42%;
 }
-.mottoH2{
-	color:#FFFB62;
-	text-align:center;
-	margin-bottom:5px;
+
+#lose_image {
+    background: linear-gradient(to bottom, rgba(58, 60, 61, 0.52), rgba(2, 2, 2, 0.815)), url(https://cdn.wallpapersafari.com/47/55/3PSINa.png);
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    background-size: cover;
 }
-.submit-button{
-	margin: 0 auto;
+
+.button4{
+    background-color: #50a037;
+    display:inline-block;
+    padding:0.3em 1.2em;
+    margin:0 0.1em 0.1em 0;
+    border:0.16em solid rgba(255,255,255,0);
+    border-radius:2em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color:#FFFFFF;
+    text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+    text-align:center;
+    transition: all 0.2s;
 }
-.advertisement {
-	margin: 0 auto;
-	height:100px;
-	width:600px;
+.button4:hover{
+    border-color: rgba(255,255,255,1);
+}
+@media all and (max-width:30em){
+    .button4 {
+    display:block;
+    margin:0.2em auto;
+    }
+}
+
+#score {
+    color: #FFFFFF;
+    font-size: 40px;
+    margin-top: 130px;
+    margin-right: 20px;
+    text-align: right;
 }

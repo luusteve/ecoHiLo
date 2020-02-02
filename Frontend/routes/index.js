@@ -9,4 +9,8 @@ router.get('/menu', (req, res) => {
     res.render('menu')
 })
 
+router.get('/lose', (req, res) => {
+    res.render('lose')
+})
+
 module.exports = router
