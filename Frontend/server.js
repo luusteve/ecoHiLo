@@ -1,8 +1,8 @@
 const express = require('express')
 const app = express()
 const expressLayouts = require('express-ejs-layouts')
-const randomize = require('./lib/randomizeProducts.js');
-const data = require('./lib/objectProvider.json');
+// const randomize = require('./lib/randomizeProducts.js');
+// const data = require('./lib/objectProvider.json');
 
 app.set('view engine', 'ejs')
 app.set('views', __dirname + '/views')

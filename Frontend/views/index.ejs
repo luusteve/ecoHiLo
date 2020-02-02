@@ -5,7 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="viewport" content="width=device-width, user-scalable=no">
 		<meta content="utf-8" http-equiv="encoding">
-        <title>The Higher Lower Game (Github project)</title>
+        <title>Higher Lower Game</title>
 		<link rel="stylesheet" href="css/styles.css">
 		<script type="text/javascript" src ="res/js/jquery-3.4.1.min.js"></script>
 	</script>
@@ -19,15 +19,20 @@
     <body>
 		<div>
 			<div id="left_image">
-				<span>
+				<span id="game_span">
 					<div id="left_title">OKOKOK</div>
 					<div id="left_value">420</div>
 				</span>
 			</div>
 			<div id="right_image">
-				<span>
+				<span id="game_span">
 					<div id="right_title">OKOKOK</div>
 					<div id="right_value">420</div>
+					<div class="buttons">
+						<button class="button4" class="button4" id="higher_button" onclick="">Higher ↑</button>
+						<button class="button4" class="button4" id="lower_button"  onclick="">Lower ↓</button>
+					</div>
+					<div id="score">Score: 100</div>
 				</span>
 			</div>
 		</div>
