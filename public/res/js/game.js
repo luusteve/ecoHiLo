@@ -9,6 +9,8 @@ $(document).ready(function () {
     playGame();
 });
 
+var audio = new Audio('https://www.myinstants.com/media/sounds/output_wek7BDn.mp3');
+
 const playGame = function () {
     data = requestAPIData();
     leftProduct = data[productPosition];
@@ -43,6 +45,7 @@ const compareData = function (sender, answer) {
                 setTimeout(function() {
                     document.getElementById("game").style.display = 'none';
                     document.getElementById("lose").style.display = 'block';
+                    audio.play();
                 }, timeout);
             } else {
                 playerScore = playerScore += 100;
@@ -61,6 +64,7 @@ const compareData = function (sender, answer) {
             setTimeout(function() {
                 document.getElementById("game").style.display = 'none';
                 document.getElementById("lose").style.display = 'block';
+                audio.play();
             }, timeout);
         }
     }
@@ -71,6 +75,7 @@ const compareData = function (sender, answer) {
                 setTimeout(function() {
                     document.getElementById("game").style.display = 'none';
                     document.getElementById("lose").style.display = 'block';
+                    audio.play();
                 }, timeout);
             } else {
                 playerScore = playerScore += 100;
@@ -89,6 +94,7 @@ const compareData = function (sender, answer) {
             setTimeout(function() {
                 document.getElementById("game").style.display = 'none';
                 document.getElementById("lose").style.display = 'block';
+                audio.play();
             }, timeout);
         }
     }
@@ -97,6 +103,7 @@ const compareData = function (sender, answer) {
         setTimeout(function() {
             document.getElementById("game").style.display = 'none';
             document.getElementById("lose").style.display = 'block';
+            audio.play();
         }, timeout);
     }
 };
