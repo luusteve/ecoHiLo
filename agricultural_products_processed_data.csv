@@ -1,44 +1,44 @@
-product,carbonintensity,link
-Alfalfa,0.13729028077707126,
-Animal meal,0.8627800025356382,
-Barley,0.5997181857140937,
-Blood meal,2.49376891693443,
-Broad bean,0.7080041464527985,
-Calcium soap,2.83002168428749,
-Cassava root dried,0.78210782983114,
-Citrus pulp dried,0.6218327012478914,
-Coconut,1.1184152522369986,
-Cottonseed,0.6129920852632332,
-Maize,0.890949776742984,
-Palm,6.531017859918776,
-Crude peanut oil,3.4232842593977,
-Rapeseed,1.5664778654995837,
-Rice,1.4563299362599007,
-Soybean,3.350408358186982,
-Sunflower,1.8585367772302166,
-Crude vegetable oil blend,5.99045112219454,
-Fat from animals,2.21860514101929,
-Fatty acid distillates,3.25990251085965,
-Fish,1.036520650441044,
-Food grade fat,7.76628692677679,
-Greaves meal,1.87429506400788,
-Groundnut,3.0568416771592206,
-Linseed,2.4264858220880807,
-Liquid whey,0.0233397318850162,
-Lucerne,0.434082499446472,
-Lupine,1.0251256560997817,
-Oat,1.0113966483212895,
-Palm oil,1.563733940592589,
-Pea,0.8706703162630333,
-Pigeon pea,1.65602354241907,
-Potato,0.5718198805897373,
-Rye,0.6363603635587973,
-Soap,0.8095987935905665,
-Sorghum,1.5032744690305606,
-Sugar,0.30519400141323383,
-Tapioca starch,0.904714229487904,
-Triticale,0.6291576551384506,
-Vinasse,0.7728333912893105,
-Wheat,0.7401504938767263,
-Whey protein concentrate,4.46162855683762,
-White rice,2.989025819619213,
+product,carbonIntensity,link
+Alfalfa,0.137,https://images.pexels.com/photos/104484/pexels-photo-104484.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260
+Animal meal,0.863,https://bunge.s3.amazonaws.com/categories/images/000/000/029/content/AnimalFeed-CORNFEED_iStock_000019403998Medium_pw_v1.jpg?1357859290
+Barley,0.6,"https://cdn.apartmenttherapy.info/image/fetch/f_auto,q_auto:eco,c_fit,w_760/https%3A%2F%2Fstorage.googleapis.com%2Fgen-atmedia%2F3%2F2014%2F02%2F5a73a705beaf84185147831a7d69abfdbe6deeae.jpeg"
+Blood meal,2.494,
+Broad bean,0.708,https://www.sneakyveg.com/wp-content/uploads/2017/06/how-to-pod-broad-beans-7.jpg
+,,
+Cassava root dried,0.782,https://i.pinimg.com/originals/26/91/ff/2691ff0dfe1de5bbf15609ed286bbd2f.jpg
+Citrus pulp dried,0.622,https://c7.alamy.com/comp/C8YR7C/citrus-pulp-pellets-C8YR7C.jpg
+Coconut,1.118,https://images6.alphacoders.com/958/thumb-1920-958253.jpg
+Cottonseed,0.613,http://multiplefoodallergyhelp.com/wp-content/uploads/2012/08/cotton-seed.jpg
+Maize,0.891,https://images6.alphacoders.com/423/423343.jpg
+Palm,6.531,https://images.wallpaperscraft.com/image/palm_trees_sky_tropics_134559_2448x3264.jpg
+Crude peanut oil,3.423,https://www.bhg.com.au/media/22695/peanut-oil.jpg
+Rapeseed oil,1.566,https://c.wallhere.com/photos/2f/67/field_yellow_rape_raps_gul_canola_rapeseed_10kviews-965774.jpg!d
+Rice,1.456,https://wallpaperaccess.com/full/1463517.jpg
+Soybean,3.35,https://c1.wallpaperflare.com/preview/492/365/201/soybean-coarse-cereals-grains-food.jpg
+Sunflowerseed,1.859,https://www.healthline.com/hlcmsresource/images/topic_centers/Food-Nutrition/1200x628_FACEBOOK_how-many-calories-in-sunflower-seeds.jpg
+Crude vegetable oil blend,5.99,https://cdn11.bigcommerce.com/s-ye1br4r5/images/stencil/800x800/uploaded_images/vegetable-oil-for-hair-1.jpg?t=1404318288
+Fat from animals,2.219,https://en.wikipedia.org/wiki/Animal_fat#/media/File:Reuzel.jpg
+Fatty acid distillates,3.26,
+Fish,1.037,
+Food grade fat,7.766,
+Greaves meal,1.874,
+Groundnut,3.057,
+Linseed,2.426,
+Liquid whey,0.023,
+Lucerne,0.434,
+Lupine,1.025,
+Oat,1.011,
+Palm oil,1.564,
+Pea,0.871,
+Pigeon pea,1.656,
+Potato,0.572,
+Rye,0.636,
+Soap,0.81,
+Sorghum,1.503,
+Sugar,0.305,
+Tapioca starch,0.905,
+Triticale,0.629,
+Vinasse,0.773,
+Wheat,0.74,
+Whey protein concentrate,4.462,
+White rice,2.989,

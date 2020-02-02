@@ -1,23 +1,23 @@
-Product Name,carbon Intensity
-Coca-Cola,0.14
-BONAFONT water bottle (6L),0.15
-Sodium Sulphate,0.18
-Plastics,0.17
-Latex,0.21
-EcoShape water bottle (0.5L),0.26
-Nescafe soluble coffee,0.32
-Walmart Bread,0.39
-Cable,0.77
-Pasta produced in Italy,0.85
-Pasta produced in Turkey,0.94
-Rubber,0.99
-Pasta produced in USA,1.32
-Pasta produced in Greece,1.7
-Staples Sustainable Earth 12A Toner Cartridrige,3.09
-Multi Grain Bread,4.49
-LED Lighting,8.43
-Levi Jeans - Range,20.87
-Qisda Mobile Phone,152.46
-Electric Motor,222.31
-Residential Air Conditioner,200.71
-Dell Latitude E7240,227.94
+keyword,searchVolume,link
+Coca-Cola,0.14,https://images.barrons.com/im-139153?width=620&size=1.5
+BONAFONT water bottle (6L),0.15,https://static.openfoodfacts.org/images/products/075/810/400/3174/front_es.5.full.jpg
+Sodium Sulphate,0.18,https://ecobatgroup.com/ecobatgroup-wAssets/img/products/Natriumsulfat.jpg
+Plastics,0.17,https://www.ctvnews.ca/polopoly_fs/1.4789893.1580377118!/httpImage/image.jpg_gen/derivatives/landscape_1020/image.jpg
+Latex,0.21,http://mjtrends.b-cdn.net/images/product/904/shiny-black-latex-sheeting_924x699.jpg
+EcoShape water bottle (0.5L),0.26,https://stmedia.stimg.co/poland-spring.jpg?auto=compress&crop=faces&dpr=1&w=525
+Nescafe soluble coffee,0.32,https://images-na.ssl-images-amazon.com/images/I/911kykoxoVL._SL1500_.jpg
+Walmart Bread,0.39,https://i5.walmartimages.com/asr/64ee4144-7ece-4900-9ceb-57f09d805a52_1.515959dd9903af4a4136d3890fc7a471.jpeg?odnWidth=450&odnHeight=450&odnBg=ffffff
+Cable,0.77,"https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MKQ42?wid=1144&hei=1144&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1549930493416"
+Pasta produced in Italy,0.85,https://www.italianfoodexperts.com/wp-content/uploads/2017/11/Vera-pasta-italiana.jpg
+Pasta produced in Turkey,0.94,https://www.italianfoodexperts.com/wp-content/uploads/2017/11/Vera-pasta-italiana.jpg
+Rubber,0.99,https://www.textures.com/system/gallery/photos/Substance/ps129679/129679_header.jpg
+Pasta produced in USA,1.32,https://www.italianfoodexperts.com/wp-content/uploads/2017/11/Vera-pasta-italiana.jpg
+Pasta produced in Greece,1.7,https://www.italianfoodexperts.com/wp-content/uploads/2017/11/Vera-pasta-italiana.jpg
+Staples Sustainable Earth 12A Toner Cartridrige,3.09,https://www.eway.ca/Eway/Images/SplitImages/Products/S/STPSEB12AR.JPG
+Multi Grain Bread,4.49,https://www.kingarthurflour.com/sites/default/files/styles/featured_image/public/recipe_legacy/9027-3-large.jpg?itok=cYIGvAGS
+LED Lighting,8.43,https://www.homedepot.ca/content/dam/homedepot/images/categories/lighting-&-ceiling-fans/led-lighting/jun-2019-clp-led-lighting-hero.jpg
+Levi Jeans - Range,20.87,https://www.levi.com/wp-content/uploads/2019/06/Blog_FitGuide_Thumbnails.jpg
+Qisda Mobile Phone,152.46,https://i0.wp.com/liliputing.com/wp-content/uploads/2016/04/qisda-f55_01.jpg?w=509&ssl=1
+Electric Motor,222.31,https://www.dtrs.ca/uploads/TytTyP4W/737x0_930x0/2018-919-DTRServices-ElectricmotorrepairsinLethbridgeAlberta.jpg
+Residential Air Conditioner,200.71,https://www.thespruce.com/thmb/ZNE0-Obunj-8rm_FR28D63WKKKY=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/residential-air-conditioning-units-556557331-580f81385f9b58564cee1e11.jpg
+Dell Latitude E7240,227.94,https://www.notebookcheck.net/uploads/tx_nbc2/e7240.jpg
