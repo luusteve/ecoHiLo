@@ -14,7 +14,6 @@ app.use('/', require('./routes/index'))
 app.use('/menu', require('./routes/index'))
 
 app.listen(process.env.PORT || 3000, () => {
-    console.log('Server started on port 3000!');
 });
 
 app.get('/api/getdata', (req, res) => {

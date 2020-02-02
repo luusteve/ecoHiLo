@@ -108,5 +108,195 @@
     "product": "Dell Latitude E7240",
     "carbonIntensity": 227.94,
     "link": "https://www.notebookcheck.net/uploads/tx_nbc2/e7240.jpg"
+  },
+  {
+    "product": "Alfalfa",
+    "carbonIntensity": 0.137,
+    "link": "https://images.pexels.com/photos/104484/pexels-photo-104484.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+  },
+  {
+    "product": "Animal meal",
+    "carbonIntensity": 0.863,
+    "link": "https://bunge.s3.amazonaws.com/categories/images/000/000/029/content/AnimalFeed-CORNFEED_iStock_000019403998Medium_pw_v1.jpg?1357859290"
+  },
+  {
+    "product": "Barley",
+    "carbonIntensity": 0.6,
+    "link": "https://cdn.apartmenttherapy.info/image/fetch/f_auto,q_auto:eco,c_fit,w_760/https%3A%2F%2Fstorage.googleapis.com%2Fgen-atmedia%2F3%2F2014%2F02%2F5a73a705beaf84185147831a7d69abfdbe6deeae.jpeg"
+  },
+  {
+    "product": "Broad bean",
+    "carbonIntensity": 0.708,
+    "link": "https://www.sneakyveg.com/wp-content/uploads/2017/06/how-to-pod-broad-beans-7.jpg"
+  },
+  {
+    "product": "Cassava root dried",
+    "carbonIntensity": 0.782,
+    "link": "https://i.pinimg.com/originals/26/91/ff/2691ff0dfe1de5bbf15609ed286bbd2f.jpg"
+  },
+  {
+    "product": "Citrus pulp dried",
+    "carbonIntensity": 0.622,
+    "link": "https://c7.alamy.com/comp/C8YR7C/citrus-pulp-pellets-C8YR7C.jpg"
+  },
+  {
+    "product": "Coconut",
+    "carbonIntensity": 1.118,
+    "link": "https://images6.alphacoders.com/958/thumb-1920-958253.jpg"
+  },
+  {
+    "product": "Cottonseed",
+    "carbonIntensity": 0.613,
+    "link": "http://multiplefoodallergyhelp.com/wp-content/uploads/2012/08/cotton-seed.jpg"
+  },
+  {
+    "product": "Maize",
+    "carbonIntensity": 0.891,
+    "link": "https://images6.alphacoders.com/423/423343.jpg"
+  },
+  {
+    "product": "Palm",
+    "carbonIntensity": 6.531,
+    "link": "https://images.wallpaperscraft.com/image/palm_trees_sky_tropics_134559_2448x3264.jpg"
+  },
+  {
+    "product": "Crude peanut oil",
+    "carbonIntensity": 3.423,
+    "link": "https://www.bhg.com.au/media/22695/peanut-oil.jpg"
+  },
+  {
+    "product": "Rapeseed oil",
+    "carbonIntensity": 1.566,
+    "link": "https://c.wallhere.com/photos/2f/67/field_yellow_rape_raps_gul_canola_rapeseed_10kviews-965774.jpg!d"
+  },
+  {
+    "product": "Rice",
+    "carbonIntensity": 1.456,
+    "link": "https://www.thespruceeats.com/thmb/u54DawQ0RW-vbqV57EME-MrspTc=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/whole-basmati-rice--red-rice-and-wild-rice--548299547-5a721cebc064710037496da5.jpg"
+  },
+  {
+    "product": "Soybean",
+    "carbonIntensity": 3.35,
+    "link": "https://c1.wallpaperflare.com/preview/492/365/201/soybean-coarse-cereals-grains-food.jpg"
+  },
+  {
+    "product": "Sunflowerseed",
+    "carbonIntensity": 1.859,
+    "link": "https://www.healthline.com/hlcmsresource/images/topic_centers/Food-Nutrition/1200x628_FACEBOOK_how-many-calories-in-sunflower-seeds.jpg"
+  },
+  {
+    "product": "Crude vegetable oil blend",
+    "carbonIntensity": 5.99,
+    "link": "https://cdn11.bigcommerce.com/s-ye1br4r5/images/stencil/800x800/uploaded_images/vegetable-oil-for-hair-1.jpg?t=1404318288"
+  },
+  {
+    "product": "Fat from animals",
+    "carbonIntensity": 7.766,
+    "link": "https://en.wikipedia.org/wiki/Animal_fat#/media/File:Reuzel.jpg"
+  },
+  {
+    "product": "Fish",
+    "carbonIntensity": 1.037,
+    "link": "https://36aizl3w7551i7pmd42qlm93-wpengine.netdna-ssl.com/wp-content/uploads/sites/5/fish-market-galle-sri-lanka.jpg"
+  },
+  {
+    "product": "Groundnut",
+    "carbonIntensity": 3.057,
+    "link": "https://images5.alphacoders.com/404/thumb-1920-404249.jpg"
+  },
+  {
+    "product": "Flaxseed",
+    "carbonIntensity": 2.426,
+    "link": "https://upload.wikimedia.org/wikipedia/commons/3/3c/From_flax_to_linseed_oil..JPG"
+  },
+  {
+    "product": "Lupine",
+    "carbonIntensity": 1.025,
+    "link": "https://en.wikipedia.org/wiki/Lupin_bean#/media/File:Lupinus_albus.JPG"
+  },
+  {
+    "product": "Oat",
+    "carbonIntensity": 1.011,
+    "link": "https://32lxcujgg9-flywheel.netdna-ssl.com/wp-content/uploads/2016/12/oats.jpg"
+  },
+  {
+    "product": "Palm oil",
+    "carbonIntensity": 1.564,
+    "link": "https://grist.files.wordpress.com/2014/05/palm-oil-fruit.jpg?w=1024&h=576&crop=1"
+  },
+  {
+    "product": "Pea",
+    "carbonIntensity": 0.871,
+    "link": "https://images3.alphacoders.com/665/thumb-1920-665468.jpg"
+  },
+  {
+    "product": "Pigeon pea",
+    "carbonIntensity": 1.656,
+    "link": "https://worldcrops.org/sites/worldcrops.org/files/crops/Fresh%20gandules_C-Town_Holyoke_June_23_17.JPG"
+  },
+  {
+    "product": "Potato",
+    "carbonIntensity": 0.572,
+    "link": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Patates.jpg"
+  },
+  {
+    "product": "Rye",
+    "carbonIntensity": 0.636,
+    "link": "https://images.wallpaperscraft.com/image/rye_spikelets_dry_144893_3840x2400.jpg"
+  },
+  {
+    "product": "Soap",
+    "carbonIntensity": 0.81,
+    "link": "https://torange.biz/photo/48/HD/house-new-photos-handmade-soap-48989.jpg"
+  },
+  {
+    "product": "Sorghum",
+    "carbonIntensity": 1.503,
+    "link": "https://s3-us-west-2.amazonaws.com/cdn-aghost/wp-content/uploads/sites/21/2017/03/souped-up-raw-64-MAIN-1836x1350.jpg"
+  },
+  {
+    "product": "Sugar",
+    "carbonIntensity": 0.305,
+    "link": "https://images.alphacoders.com/640/thumb-1920-640708.jpg"
+  },
+  {
+    "product": "Tapioca starch",
+    "carbonIntensity": 0.905,
+    "link": "https://www.thespruceeats.com/thmb/g102Ogpdq0QwmSOc40EVOrNytC8=/2681x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/bubble-tea-recipe-694162-step-05-41e4364e9c1948fc8dec28b11d80c542.jpg"
+  },
+  {
+    "product": "Triticale",
+    "carbonIntensity": 0.629,
+    "link": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Wheat_close-up.JPG"
+  },
+  {
+    "product": "Wheat",
+    "carbonIntensity": 0.74,
+    "link": "https://wallpapers.io/public/uploads/previewlazy//freestockphotos-414515633470380ogutgcvup.jpg"
+  },
+  {
+    "product": "Whey protein concentrate",
+    "carbonIntensity": 4.462,
+    "link": "https://www.gnc.com/dw/image/v2/BBLB_PRD/on/demandware.static/-/Sites-master-catalog-gnc/default/dwcb4a6c85/hi-res/350260_web_Optimum%20Nutrition%20GSW_5LB_FrenchVanillaCreme_Front_.jpg?sw=2000&sh=2000&sm=fit"
+  },
+  {
+    "product": "White rice",
+    "carbonIntensity": 2.989,
+    "link": "https://wallpaperaccess.com/full/1463517.jpg"
+  },
+  {
+    "product": "Beef",
+    "carbonIntensity": 8.635,
+    "link": "https://www.itl.cat/pngfile/big/114-1141109_steak-wallpaper.jpg"
+  },
+  {
+    "product": "Pig",
+    "carbonIntensity": 18.451,
+    "link": "https://www.wallpaperflare.com/static/497/195/681/pork-loin-cut-meat-wallpaper-preview.jpg"
+  },
+  {
+    "product": "Poultry",
+    "carbonIntensity": 24.627,
+    "link": "https://cdn.britannica.com/56/155656-050-EF76EB04/chickens-poultry-farm.jpg"
   }
 ]
