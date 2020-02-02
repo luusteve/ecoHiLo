@@ -68,6 +68,15 @@ html,body{
     position: relative;
 }
 
+#lose_span {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+    width: 100%;
+    top: 200px;
+    position: relative;
+}
+
 .buttons{
     display: block;
     margin-left: 38%;
@@ -156,4 +165,27 @@ html,body{
     margin-top: 130px;
     margin-right: 20px;
     text-align: right;
+}
+
+#lose_score {
+    color: #FFFFFF;
+    font-size: 100px;
+    text-align: center;
+}
+
+#restart_button {
+    margin-top: 40px;
+    margin-left: 50px;
+    padding: 20px;
+    font-size: 32px;
+    width: 300px;
+    line-height: 30px;
+}
+
+#return_button {
+    margin-left: -120px;
+    padding: 20px;
+    font-size: 32px;
+    width: 300px;
+    line-height: 30px;
 }
