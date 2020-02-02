@@ -8,29 +8,30 @@ $(document).ready(function () {
     playGame();
 });
 
-const playGame = function() {
+const playGame = function () {
     data = requestAPIData();
     leftProduct = data[productPosition];
     rightProduct = data[productPosition + 1];
 
     if (data) {
-        let leftImage = $('left_image'),
+        let leftImage = $('.left_image'),
             leftTitle = $('left_title'),
             leftValue = $('left_value'),
-             rightImage = $('right_image'),
+            rightImage = $('.right_image'),
             rightTitle = $('right_title'),
             rightValue = $('right_value'),
-            currentScore = $(score);
-            
+            currentScore = $('score');
 
-        leftImage.css("background", "linear-gradient( (rgba(135, 137, 139, 0.52)), url('" + data[productTracker].link + "')");
+
+        leftImage.css("background", "linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('" + data[productPosition].link + "')");
         leftTitle.html(data[productPosition].product);
         leftValue.html(data[productPosition].carbonIntensity);
 
-        rightImage.css("background", "linear-gradient( (rgba(135, 137, 139, 0.52)), url('" + data[productTracker + 1].link + "')");
+        rightImage.css("background", "linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('" + data[productPosition + 1].link + "')");
         rightTitle.html(data[productPosition + 1].product);
         rightValue.html("emits than " + data[productPosition].product);
-        currentScore.html("Score:" + score);
+        currentScore.html("Score:" + playerScore);
+        
     }
 }
 
@@ -43,11 +44,11 @@ const nextProduct = function () {
         rightTitle = $('right_title'),
         rightValue = $('right_value');
 
-    leftImage.css("background", "linear-gradient( (rgba(135, 137, 139, 0.52)), url('" + data[productTracker].link + "')");
+    leftImage.css("background", "linear-gradient( (rgba(135, 137, 139, 0.52)), url('" + data[productPosition].link + "')");
     leftTitle.html(data[productPosition].product);
     leftValue.html(data[productPosition].carbonIntensity);
 
-    rightImage.css("background", "linear-gradient( (rgba(135, 137, 139, 0.52)), url('" + data[productTracker + 1].link + "')");
+    rightImage.css("background", "linear-gradient( (rgba(135, 137, 139, 0.52)), url('" + data[productPosition + 1].link + "')");
     rightTitle.html(data[productPosition + 1].product);
     rightValue.html("emits than " + data[productPosition].product);
 }
