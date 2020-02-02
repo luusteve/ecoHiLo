@@ -1,3 +1,10 @@
+html,body{
+    background-color:#333;
+	margin: 0; 
+	height: 100%; 	
+	overflow: hidden;
+}
+
 #left_text {
     font-size: 100px;
     position: relative;
@@ -96,7 +103,7 @@
     line-height: 50px;
   }
 
-  #lower_button {
+#lower_button {
     background-color: #bd2d2d;
     margin-top: 25px;
     margin-right: 100px;
@@ -109,6 +116,7 @@
 #menu_image {
     background: linear-gradient(to bottom, rgba(58, 60, 61, 0.52), rgba(2, 2, 2, 0.815)), url(https://wallpaperplay.com/walls/full/c/2/1/57997.jpg);
     width: 100%;
+    height: 100%;
     position: absolute;
 }
 #menu_title {
