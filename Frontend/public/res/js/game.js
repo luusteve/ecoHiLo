@@ -81,6 +81,8 @@ const compareData = function (sender, answer) {
 
 
 
+
+
 const nextProduct = function () {
     let leftImage = $('.left_image'),
         leftTitle = $('.left_title'),
@@ -96,6 +98,7 @@ const nextProduct = function () {
     rightImage.css("background", "linear-gradient(to top, rgba(58, 60, 61, 0.52), rgba(2, 2, 2, 0.815)), url('" + data[productPosition + 1].link + "')");
     rightTitle.html(data[productPosition + 1].product);
     //rightValue.html("emits than ↑/↓" + data[productPosition].product);
+    startCounter();
 }
 
 const requestAPIData = function () {
