@@ -40,8 +40,6 @@ const compareData = function (sender, answer) {
             if (productPosition + 1 > 10000) {
                 document.getElementById("game").style.display = 'none';
                 document.getElementById("lose").style.display = 'block';
-                //TODO END
-                // break;
             } else {
                 playerScore = playerScore += 100;
                 productPosition = productPosition += 1;
@@ -54,20 +52,14 @@ const compareData = function (sender, answer) {
         else {
             document.getElementById("game").style.display = 'none';
             document.getElementById("lose").style.display = 'block';
-            //TODO END;
-            //break;
         }
     }
     else if (answer == "higher") {
         if (leftProduct.carbonIntensity <= rightProduct.carbonIntensity) {
-
             if (productPosition + 1 > 10000) {
                 document.getElementById("game").style.display = 'none';
                 document.getElementById("lose").style.display = 'block';
-                //TODO END
-                // break;
-            }
-            else {
+            } else {
                 playerScore = playerScore += 100;
                 productPosition = productPosition += 1;
                 leftProduct = data[productPosition];
@@ -76,13 +68,14 @@ const compareData = function (sender, answer) {
                 nextProduct();
             }
         }
+        else {
+            document.getElementById("game").style.display = 'none';
+            document.getElementById("lose").style.display = 'block';
+        }
     }
     else {
-        console.log("END");
         document.getElementById("game").style.display = 'none';
         document.getElementById("lose").style.display = 'block';
-        //TODO END
-        //break;
     }
 };
 
@@ -100,7 +93,7 @@ const nextProduct = function () {
 
     leftImage.css("background", "linear-gradient(to top, rgba(58, 60, 61, 0.52), rgba(2, 2, 2, 0.815)), url('" + data[productPosition].link + "')");
     leftTitle.html(data[productPosition].product);
-    leftValue.html(data[productPosition].carbonIntensity+ " CO2/kg");
+    leftValue.html(data[productPosition].carbonIntensity + " CO2/kg");
 
     rightImage.css("background", "linear-gradient(to top, rgba(58, 60, 61, 0.52), rgba(2, 2, 2, 0.815)), url('" + data[productPosition + 1].link + "')");
     rightTitle.html(data[productPosition + 1].product);
