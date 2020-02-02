@@ -29,18 +29,16 @@ const playGame = function () {
 
         rightImage.css("background", "linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('" + data[productPosition + 1].link + "')");
         rightTitle.html(data[productPosition + 1].product);
-        rightValue.html("emits than " + data[productPosition].product);
         currentScore.html("Score: " + playerScore);
 
     }
 }
-
 const compareData = function (sender, answer) {
     if (answer == "lower") {
         if (leftProduct.carbonIntensity >= rightProduct.carbonIntensity) {
             if (productPosition + 1 == data.lenght - 1) {
                 //TODO END
-                continue;
+               // break;
             } else {
                 playerScore += 100;
                 productPosition += 1;
@@ -52,13 +50,14 @@ const compareData = function (sender, answer) {
         }
         else {
             //TODO END;
-            continue;
+            //break;
         }
     }
     else if (answer == "higher") {
         if (leftProduct.carbonIntensity <= rightProduct.carbonIntensity) {
             if (productPosition + 1 == data.lenght - 1) {
                 //TODO END
+               // break;
             }
         } else {
             playerScore += 100;
@@ -71,6 +70,7 @@ const compareData = function (sender, answer) {
     }
     else {
         //TODO END
+        //break;
     }
 };
 
@@ -84,14 +84,15 @@ const nextProduct = function () {
         rightTitle = $('.right_title'),
         rightValue = $('.right_value');
 
-    leftImage.css("background", "linear-gradient( (rgba(135, 137, 139, 0.52)), url('" + data[productPosition].link + "')");
+        leftImage.css("background", "linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('" + data[productPosition].link + "')");
     leftTitle.html(data[productPosition].product);
     leftValue.html(data[productPosition].carbonIntensity);
 
-    rightImage.css("background", "linear-gradient( (rgba(135, 137, 139, 0.52)), url('" + data[productPosition + 1].link + "')");
+    rightImage.css("background", "linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('" + data[productPosition+1].link + "')");
     rightTitle.html(data[productPosition + 1].product);
     rightValue.html("emits than " + data[productPosition].product);
 }
+
 const requestAPIData = function () {
     let data;
     $.get({
