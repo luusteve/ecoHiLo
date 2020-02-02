@@ -15,12 +15,12 @@ const playGame = function () {
 
     if (data) {
         let leftImage = $('.left_image'),
-            leftTitle = $('left_title'),
-            leftValue = $('left_value'),
+            leftTitle = $('.left_title'),
+            leftValue = $('.left_value'),
             rightImage = $('.right_image'),
-            rightTitle = $('right_title'),
-            rightValue = $('right_value'),
-            currentScore = $('score');
+            rightTitle = $('.right_title'),
+            rightValue = $('.right_value'),
+            currentScore = $('.score');
 
 
         leftImage.css("background", "linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('" + data[productPosition].link + "')");
@@ -30,19 +30,59 @@ const playGame = function () {
         rightImage.css("background", "linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('" + data[productPosition + 1].link + "')");
         rightTitle.html(data[productPosition + 1].product);
         rightValue.html("emits than " + data[productPosition].product);
-        currentScore.html("Score:" + playerScore);
-        
+        currentScore.html("Score: " + playerScore);
+
     }
 }
 
+const compareData = function (sender, answer) {
+    if (answer == "lower") {
+        if (leftProduct.carbonIntensity >= rightProduct.carbonIntensity) {
+            if (productPosition + 1 == data.lenght - 1) {
+                //TODO END
+                continue;
+            } else {
+                playerScore += 100;
+                productPosition += 1;
+                leftProduct = data[productPosition];
+                rightProduct = data[productPosition + 1];
+                currentScore = $('.score').html("Score: " + playerScore);
+                nextProduct();
+            }
+        }
+        else {
+            //TODO END;
+            continue;
+        }
+    }
+    else if (answer == "higher") {
+        if (leftProduct.carbonIntensity <= rightProduct.carbonIntensity) {
+            if (productPosition + 1 == data.lenght - 1) {
+                //TODO END
+            }
+        } else {
+            playerScore += 100;
+            productPosition += 1;
+            leftProduct = data[productPosition];
+            rightProduct = data[productPosition + 1];
+            currentScore = $('.score').html("Score: " + playerScore);
+            nextProduct();
+        }
+    }
+    else {
+        //TODO END
+    }
+};
+
+
 
 const nextProduct = function () {
-    let leftImage = $('left_image'),
-        leftTitle = $('left_title'),
-        leftValue = $('left_value');
-    let rightImage = $('right_image'),
-        rightTitle = $('right_title'),
-        rightValue = $('right_value');
+    let leftImage = $('.left_image'),
+        leftTitle = $('.left_title'),
+        leftValue = $('.left_value');
+    let rightImage = $('.right_image'),
+        rightTitle = $('.right_title'),
+        rightValue = $('.right_value');
 
     leftImage.css("background", "linear-gradient( (rgba(135, 137, 139, 0.52)), url('" + data[productPosition].link + "')");
     leftTitle.html(data[productPosition].product);
